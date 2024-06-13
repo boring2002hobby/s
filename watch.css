@@ -1,0 +1,14 @@
+body{
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+video{
+    position: absolute;
+    Top:30%;
+    width:100%;
+}

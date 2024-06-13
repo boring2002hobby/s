@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(79, 79, 79);
+    color: #fff;
+}
+header h2{
+    text-align: center;
+    text-shadow: 1pX 1Px black;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;/* Center items */
+}
+
+.gallery img {
+    flex-grow: 1;
+    width: calc(33.33% - 10px); /* Adjusted width calculation */
+    height: 90px; /* Set height equal to width */
+    margin: 5px; /* Remove all margins */
+    object-fit: fill;
+    border-radius: 20px 10px 20px 10px/ 10px 30px 10px 30px;
+    box-shadow: 1px 1Px 5px black;
+}
+
+
+
+/* Adjust margins for every third image */
+.gallery img:nth-child(3n) {
+    margin-right: 0; /* Remove right margin for every third image */
+}
+
+
+
+.category-buttons {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #444; /* Background color for buttons container */
+}
+
+.category-buttons a {
+    flex-grow: 1;
+}
+
+.category-buttons button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding:10px;
+    font-weight:bold;
+    border:1px solid black;/* Optional: Adjust font size as needed */
+}
+
