@@ -12,46 +12,31 @@ function video($start,$end){
 }
 switch ($category) {
     case 'O':
-        $start='0';
-        $end='999';
+        $start='10000';
+        $end='10999';
         video($start,$end);
 
         break;
     case '1':
-        $start='1000';
-        $end='1999';
+        $start='10000';
+        $end='11999';
         video($start,$end);
         break;
     case '2':
-        $start='2000';
-        $end='2999';
+        $start='12000';
+        $end='12999';
         video($start,$end);
         break;
     case '3':
-        $start='3000';
-        $end='3999';
+        $start='13000';
+        $end='13999';
         video($start,$end);
         break;
     case '4':
-        $start='4000';
-        $end='4999';
+        $start='14000';
+        $end='14999';
         video($start,$end);
         break;
-    case '5':
-        $start='5000';
-        $end='5999';
-        video($start,$end);
-        break;
-    case '6':
-        $start='6000';
-        $end='6999';
-        video($start,$end);
-        break;
-    case '7':
-        $start='7000';
-        $end='7999';
-        video($start,$end);
-        break;
-
+    
 }
 ?>
